@@ -1,0 +1,66 @@
+{
+    "input": {
+        "endpoint": "https://api.incentknow.com",
+        "files": [
+            {
+                "title": "Sql",
+                "path": "../gae/MyProject/src/client_sql.ts",
+                "exportType": true,
+                "exportApi": false
+            },
+            {
+                "title": "Entities",
+                "path": "../gae/MyProject/src/utils_entities.ts",
+                "exportType": true,
+                "exportApi": false
+            },
+            {
+                "title": "Container",
+                "path": "../gae/MyProject/src/service_container.ts",
+                "exportType": true,
+                "exportApi": true
+            },
+            {
+                "title": "Content",
+                "path": "../gae/MyProject/src/service_content.ts",
+                "exportType": true,
+                "exportApi": true
+            },
+            {
+                "title": "Format",
+                "path": "../gae/MyProject/src/service_format.ts",
+                "exportType": true,
+                "exportApi": true
+            },
+            {
+                "title": "Material",
+                "path": "../gae/MyProject/src/service_material.ts",
+                "exportType": true,
+                "exportApi": true
+            },
+            {
+                "title": "Space",
+                "path": "../gae/MyProject/src/service_space.ts",
+                "exportType": true,
+                "exportApi": true
+            },
+            {
+                "title": "User",
+                "path": "../gae/MyProject/src/service_user.ts",
+                "exportType": true,
+                "exportApi": true
+            }
+        ]
+    },
+    "output": {
+        "api": {
+            "module": "Incentknow.Api",
+            "path": "../src/Incentknow/Api/Api"
+        },
+        "entities": {
+            "module": "Incentknow.Api.Entities",
+            "path": "../src/Incentknow/Api/Entities",
+            "prefix": "E"
+        }
+    }
+}
